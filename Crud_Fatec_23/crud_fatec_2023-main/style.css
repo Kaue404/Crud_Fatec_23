@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #8c00ff;
+	color: #fff;
+	padding: 40px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 24px;
+}
+
+main {
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: normal;
+}
+
+button {
+	margin: 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #e100ff;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #b500d9;
+}
+
+button:focus {
+	outline: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+.container {
+	width: 500px;
+	margin: 100px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+/* Personalizando o estilo do painel de login */
+.login-panel {
+	margin-top: 50px;
+}
+
+.login-panel .panel-heading {
+	font-size: 24px;
+}
+
+.login-panel .panel-body {
+	padding-top: 30px;
+}
+
+/* Personalizando o estilo do painel de cadastro */
+.cadastro-panel {
+	margin-top: 50px;
+}
+
+.cadastro-panel .panel-heading {
+	font-size: 24px;
+}
+
+.cadastro-panel .panel-body {
+	padding-top: 30px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sistema Fatec Franca - 2023</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sistema Fatec Franca - 2023</h1>
+    </header>
+    <main>
+      <div class="container">
+        <button @click="goToCadastroAlunos">Cadastro de Alunos</button>
+        <button @click="goToBuscaAlunos">Busca de Alunos</button>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+  </body>
+</html>
+
+<script>
+  new Vue({
+    el: "main",
+    methods: {
+      goToCadastroAlunos() {
+        window.open("cadastroAlunos.html", "_blank");
+      },
+      goToBuscaAlunos() {
+        window.open("buscaAlunos.html", "_blank");
+      },
+    },
+  });
+</script>
